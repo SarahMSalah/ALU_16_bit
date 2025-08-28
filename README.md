@@ -50,3 +50,21 @@ Notes
 •	Division by zero is handled safely by returning 0.
 •	Flags ensure easy identification of the executed operation category.
 
+A detailed testbench is included.
+
+It covers:  
+• Arithmetic operations  
+• Division by zero handling  
+• Logical bitwise operations  
+• Comparisons (equality, greater than, less than)  
+• Shift operations  
+• Default case  
+
+Simulation results are logged using $display statements and waveform dumping for verification.
+
+
+Synthesis Diagram
+•	The block diagram of the ALU is shown below.  
+*(Created manually using [draw.io](https://app.diagrams.net))*
+![ALU_16_bit_Synthesis_Diagram](ALU_16_bit_Synthesis_Diagram.png)
+
